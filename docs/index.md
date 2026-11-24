@@ -1,44 +1,45 @@
----
-title: Accueil
----
+# Ne jetez plus, réparons ensemble ♻️
 
-<div class="hero" markdown>
+Le Repair Café de Cuincy est un atelier gratuit où des bénévoles vous aident
+à réparer vos objets du quotidien.
 
-# Ne jetez plus, réparons ensemble
+[Prochain atelier :octicons-calendar-16:](#prochain-atelier){ .md-button .md-button--primary }
+[Nous rejoindre](rejoindre.md){ .md-button }
 
-Le Repair Café de Cuincy est un atelier gratuit où des bénévoles vous aident à réparer vos objets du quotidien.
+## Prochain atelier { #prochain-atelier }
 
-[Voir le prochain atelier](#prochain-atelier){ .md-button .md-button--primary }
-[Devenir bénévole](rejoindre.md){ .md-button }
-
-</div>
-
-## Comment ça marche
-
-<div class="grid cards" markdown>
-
-- :material-bag-personal: **Vous apportez votre objet**
-
-    Petit électroménager, vêtement, vélo, jouet, ordinateur… tant que vous pouvez le porter.
-
-- :material-wrench: **On le répare avec vous**
-
-    Un bénévole vous guide. Vous participez, vous comprenez la panne et vous apprenez.
-
-- :material-recycle: **Il repart en état de marche**
-
-    Chaque objet réparé est un objet de moins à la poubelle, et de l'argent économisé.
-
-</div>
-
-## Prochain atelier
-
-!!! info "Date et lieu"
+!!! info "Date, horaire et lieu"
     - **Date :** à compléter
-    - **Horaires :** à compléter
-    - **Lieu :** à compléter, Cuincy
-    - **Prix :** gratuit, participation libre
+    - **Horaire :** à compléter
+    - **Lieu :** à compléter
 
-## Besoin d'un coup de main avant de venir ?
+L'entrée est libre. Venez avec votre objet en panne, nous nous occupons du reste.
 
-Consultez nos [tutos de réparation](tutos/index.md) pour les pannes les plus courantes, ou lisez la [FAQ](faq.md).
+## Comment ça marche ?
+
+<div class="how" markdown>
+
+<div class="how-photo" markdown>
+![Des bénévoles examinent ensemble un outil électrique ouvert sur la table](assets/atelier.jpg)
+</div>
+
+<div class="how-text" markdown>
+
+**1. Apportez votre objet.** Petit électroménager, outil, vêtement, vélo, jouet...
+Si c'est en panne et que ça se transporte, venez le montrer.
+
+**2. On cherche la panne ensemble.** Comme sur la photo, les bénévoles ouvrent
+l'objet, regardent l'intérieur à plusieurs et vous expliquent ce qui ne va pas.
+Vous participez : c'est comme ça qu'on apprend.
+
+**3. Repartez avec un objet qui marche.** Et moins de déchets à la poubelle.
+Si la réparation n'est pas possible sur place, on vous dit pourquoi et on vous
+oriente.
+
+</div>
+
+</div>
+
+<div class="how-logo" markdown>
+![Logo Repair Café](assets/logo-repair-cafe.jpg){ width="120" }
+</div>
