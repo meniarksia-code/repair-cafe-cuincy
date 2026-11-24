@@ -1,0 +1,125 @@
+/* ===== Couleurs du Repair Café ===== */
+:root {
+  --rc-orange: #f4754d;
+  --rc-orange-fonce: #d9582f;
+  --rc-marine: #122c49;
+  --rc-creme: #fdf1ec;
+
+  --md-primary-fg-color: var(--rc-orange);
+  --md-primary-fg-color--light: #f79a7b;
+  --md-primary-fg-color--dark: var(--rc-orange-fonce);
+  --md-accent-fg-color: var(--rc-orange-fonce);
+  --md-typeset-a-color: var(--rc-orange-fonce);
+}
+
+/* ===== En-tête, onglets, pied de page ===== */
+.md-header { background-color: var(--rc-orange); }
+.md-tabs   { background-color: var(--rc-marine); }
+.md-footer,
+.md-footer-meta { background-color: var(--rc-marine); }
+
+.md-header__title { font-weight: 700; }
+
+/* ===== Titres ===== */
+.md-typeset h1 {
+  color: var(--rc-marine);
+  font-weight: 700;
+  letter-spacing: -0.01em;
+}
+.md-typeset h2 {
+  color: var(--rc-marine);
+  font-weight: 600;
+}
+
+/* ===== Boutons ===== */
+.md-typeset .md-button {
+  border-radius: 999px;
+  padding: 0.5em 1.5em;
+  font-weight: 600;
+  color: var(--rc-marine);
+  border-color: var(--rc-marine);
+}
+.md-typeset .md-button--primary {
+  background-color: var(--rc-orange);
+  border-color: var(--rc-orange);
+  color: #fff;
+}
+.md-typeset .md-button--primary:hover {
+  background-color: var(--rc-orange-fonce);
+  border-color: var(--rc-orange-fonce);
+  color: #fff;
+}
+
+/* ===== Page d'accueil : bandeau ===== */
+.hero {
+  background: var(--rc-marine);
+  color: #fff;
+  border-radius: 16px;
+  padding: 2.5rem 2rem;
+  margin: 0 0 2rem;
+}
+.md-typeset .hero h1 {
+  color: #fff;
+  font-size: 2.2em;
+  line-height: 1.15;
+  margin: 0 0 0.6em;
+}
+.hero p {
+  font-size: 1.05em;
+  max-width: 34em;
+}
+.md-typeset .hero .md-button {
+  color: #fff;
+  border-color: #fff;
+}
+.md-typeset .hero .md-button--primary {
+  background-color: var(--rc-orange);
+  border-color: var(--rc-orange);
+}
+
+/* ===== Cartes ===== */
+.md-typeset .grid.cards > ul > li {
+  border-radius: 12px;
+  border: 1px solid #f1d9d0;
+  background: var(--rc-creme);
+}
+.md-typeset .grid.cards .twemoji { color: var(--rc-orange-fonce); }
+
+/* ===== Encadrés ===== */
+.md-typeset .admonition,
+.md-typeset details {
+  border-radius: 10px;
+  border-color: var(--rc-orange);
+}
+.md-typeset .admonition-title,
+.md-typeset summary {
+  background-color: rgba(244, 117, 77, 0.12);
+}
+
+/* ===== Tableaux ===== */
+.md-typeset table:not([class]) th {
+  background-color: var(--rc-marine);
+  color: #fff;
+}
+
+/* ===== Mobile ===== */
+@media (max-width: 600px) {
+  .hero { padding: 1.5rem 1.2rem; }
+  .md-typeset .hero h1 { font-size: 1.7em; }
+}
+
+/* Comment ça marche : photo + texte */
+.how {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.how-photo { flex: 1 1 320px; }
+.how-text  { flex: 1 1 320px; }
+.how-photo img {
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0,0,0,.15);
+}
+.how-logo { text-align: center; margin-top: 2rem; }
+.how-logo img { border-radius: 50%; }
