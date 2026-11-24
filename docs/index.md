@@ -20,6 +20,7 @@ L'entrée est libre. Venez avec votre objet en panne, nous nous occupons du rest
 <div class="how" markdown>
 
 <div class="how-photo" markdown>
+![Logo Repair Café](assets/logo-repair-cafe.jpg){ width="120" }
 ![Des bénévoles examinent ensemble un outil électrique ouvert sur la table](assets/atelier.jpg)
 </div>
 
