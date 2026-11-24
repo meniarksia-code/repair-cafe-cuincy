@@ -1,0 +1,63 @@
+site_name: Repair Café Cuincy
+site_description: Atelier de réparation gratuit et convivial à Cuincy
+site_author: Repair Café Cuincy
+# site_url: https://votre-adresse.fr/   # à renseigner quand le site sera en ligne
+
+theme:
+  name: material
+  language: fr
+  font:
+    text: Work Sans
+  # Quand vous aurez vos images, mettez-les dans docs/assets/ puis décommentez :
+  # logo: assets/logo.png
+  # favicon: assets/logo.png
+  palette:
+    primary: custom
+    accent: custom
+  features:
+    - navigation.tabs
+    - navigation.top
+    - navigation.indexes
+    - navigation.footer
+    - search.suggest
+
+extra_css:
+  - stylesheets/extra.css
+
+markdown_extensions:
+  - attr_list
+  - md_in_html
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - tables
+  - toc:
+      permalink: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+
+extra:
+  social:
+    - icon: fontawesome/brands/instagram
+      link: https://www.instagram.com/   # remplacer par le lien de votre compte
+      name: Instagram
+    - icon: fontawesome/brands/facebook
+      link: https://www.facebook.com/    # remplacer par le lien de votre page
+      name: Facebook
+
+copyright: Repair Café Cuincy – Atelier gratuit, animé par des bénévoles
+
+nav:
+  - Accueil: index.md
+  - Rejoindre: rejoindre.md
+  - Tutos:
+      - tutos/index.md
+      - Électroménager: tutos/electromenager.md
+      - Textile: tutos/textile.md
+      - Vélo: tutos/velo.md
+      - Informatique: tutos/informatique.md
+  - Communauté: communaute.md
+  - FAQ: faq.md
+  - Contacts: contacts.md
+  - À propos: a-propos.md
