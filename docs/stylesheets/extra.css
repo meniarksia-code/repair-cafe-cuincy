@@ -107,3 +107,19 @@
   .hero { padding: 1.5rem 1.2rem; }
   .md-typeset .hero h1 { font-size: 1.7em; }
 }
+
+/* Comment ça marche : photo + texte */
+.how {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.how-photo { flex: 1 1 320px; }
+.how-text  { flex: 1 1 320px; }
+.how-photo img {
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0,0,0,.15);
+}
+.how-logo { text-align: center; margin-top: 2rem; }
+.how-logo img { border-radius: 50%; }
